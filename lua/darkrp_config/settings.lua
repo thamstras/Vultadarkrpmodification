@@ -73,7 +73,7 @@ GM.Config.disallowClientsideScripts		= false
 -- doorwarrants - Enable/disable Warrant requirement to enter property.
 GM.Config.doorwarrants 					= true
 -- dropmoneyondeath - Enable/disable whether people drop money on death.
-GM.Config.dropmoneyondeath 				= false
+GM.Config.dropmoneyondeath 				= true
 -- droppocketarrest - Enable/disable whether people drop the stuff in their pockets when they get arrested.
 GM.Config.droppocketarrest 				= false
 -- droppocketdeath - Enable/disable whether people drop the stuff in their pockets when they die.
@@ -165,7 +165,7 @@ GM.Config.babygodtime					= 5
 -- chatsoundsdelay - How long to wait before letting a player emit a sound from their chat again. Leave this on at least a few seconds to prevent 'HAXHAXHAXHAXHAXHAX'-ing. Set to 0 to disable.
 GM.Config.chatsoundsdelay				= 5
 -- deathfee - the amount of money someone drops when dead.
-GM.Config.deathfee						= 30
+GM.Config.deathfee						= 150
 -- decaltimer - Sets the time to clear clientside decals. (seconds)
 GM.Config.decaltimer					= 120
 -- demotetime - Number of seconds before a player can rejoin a team after demotion from that team.
@@ -175,7 +175,7 @@ GM.Config.doorcost						= 30
 -- entremovedelay - how long to wait before removing a bought entity after disconnect.
 GM.Config.entremovedelay				= 0
 -- jailtimer - Sets the jailtimer. (in seconds)
-GM.Config.jailtimer						= 120
+GM.Config.jailtimer						= 100
 -- maxdoors - Sets the max amount of doors one can own.
 GM.Config.maxdoors						= 20
 -- maxdrugs - Sets max drugs.
@@ -223,9 +223,9 @@ GM.Config.runspeedcp					= 255
 -- searchtime - Number of seconds for which a search warrant is valid.
 GM.Config.searchtime					= 30
 -- ShipmentSpawnTime - Antispam time between spawning shipments.
-GM.Config.ShipmentSpamTime				= 3
+GM.Config.ShipmentSpamTime				= 0
 -- shipmenttime - The number of seconds it takes for a shipment to spawn.
-GM.Config.shipmentspawntime				= 10
+GM.Config.shipmentspawntime				= 3
 -- startinghealth - the health when you spawn.
 GM.Config.startinghealth				= 100
 -- startingmoney - your wallet when you join for the first time.
@@ -389,6 +389,12 @@ GM.Config.hitCustomerCooldown = 240
 Hungermod module
 ---------------------------------------------------------------------------*/
 -- hungerspeed <Amount> - Set the rate at which players will become hungry (2 is the default)
-GM.Config.hungerspeed = 2
+GM.Config.hungerspeed = 0
 -- starverate <Amount> - How much health that is taken away every second the player is starving  (3 is the default)
-GM.Config.starverate = 3
+GM.Config.starverate = 0
+
+GM.Config.topazprintamount = 10
+GM.Config.amethystprintamount = 15
+GM.Config.emeraldprintamount = 25
+GM.Config.rubyprintamount = 50
+GM.Config.sapphireprintamount = 75
