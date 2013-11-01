@@ -19,7 +19,7 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 Add jobs under the following line:
 ---------------------------------------------------------------------------*/
 
-TEAM_CITIZEN = AddExtraTeam("Citizen", {
+TEAM_DEFAULT = AddExtraTeam("Citizen", {
 	color = Color(20, 150, 20, 255),
 	model = {
 		"models/player/Group01/Female_01.mdl",
@@ -361,7 +361,7 @@ You are a PREDATOR your mission to destroy for satisfaction, and money.]], {""},
 /*---------------------------------------------------------------------------
 Define which team joining players spawn into and what team you change to if demoted
 ---------------------------------------------------------------------------*/
-GAMEMODE.DefaultTeam = TEAM_CITIZEN
+GAMEMODE.DefaultTeam = TEAM_DEFAULT
 
 
 /*---------------------------------------------------------------------------
