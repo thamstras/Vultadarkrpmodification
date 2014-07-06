@@ -1,3 +1,6 @@
+This Repository is now out of use, and only exists as a historical curiosity. DO NOT USE. IT WILL NEVER BE UPDATED.
+===
+
 The DarkRP modification addon
 ==================
 for DarkRP 2.5.0 and above.
